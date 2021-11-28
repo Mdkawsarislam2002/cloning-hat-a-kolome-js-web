@@ -74,3 +74,22 @@
 #content-area {
   background: var(--white-color);
 }
+.content {
+  padding: 2em 3em;
+}
+.js-contant ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+}
+.js-contant ul li {
+  display: inline-block;
+  background: var(--main-color);
+  width: 30%;
+  padding: 2rem 3rem;
+  margin: 10px;
+}
+.js-contant ul li a {
+  text-decoration: none;
+}
