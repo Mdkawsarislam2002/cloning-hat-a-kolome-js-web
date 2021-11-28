@@ -1,0 +1,35 @@
+@media only screen and (max-width: 400px) {
+  .logo h1 {
+    font-size: 0.5rem;
+  }
+  .about h2 {
+    font-size: 1.8rem;
+  }
+  #search {
+    width: 90%;
+    height: 15%;
+    border: 3px solid var(--second-color);
+    transition: all 0.2s ease-in;
+  }
+
+  #search:focus {
+    border-radius: 5px;
+    width: 95%;
+    outline: none;
+    box-shadow: 0px 10px 20px var(--shadow-color);
+  }
+  #search::placeholder {
+    padding-left: 0.5em;
+  }
+  .intro {
+    padding: 2rem 1.5rem;
+    text-align: center;
+  }
+  .github-profile {
+    /* margin: 2rem 1rem; */
+    line-height: 2rem;
+  }
+  .logo {
+    margin: 0rem 2rem;
+  }
+}

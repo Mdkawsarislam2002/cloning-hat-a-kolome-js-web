@@ -1,0 +1,76 @@
+:root {
+  --main-color: #f0db4f;
+  --second-color: #323330;
+  --shadow-color: #ae9f39;
+  --white-color: rgb(240, 241, 241);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: var(--second-color);
+}
+.navbar {
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  margin: 2rem 4rem;
+}
+.navbar .logo img {
+  width: 50px;
+}
+
+.github-profile {
+  margin: 2rem 4rem;
+}
+.intro {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: var(--main-color);
+  padding: 5rem 6rem;
+}
+.about {
+  line-height: 3er;
+}
+.about h2 {
+  font-size: 2.5rem;
+}
+.about > p {
+  font-size: 1.6rem;
+  padding: 0.8rem;
+}
+#search {
+  width: 95%;
+  height: 15%;
+  border: 3px solid var(--second-color);
+  transition: all 0.2s ease-in;
+  background: var(--white-color);
+}
+
+#search:focus {
+  border-radius: 5px;
+  width: 100%;
+  outline: none;
+  box-shadow: 0px 10px 20px var(--shadow-color);
+}
+#search::placeholder {
+  padding-left: 1.5em;
+}
+.input-label {
+  padding: 1em 0em;
+}
+.book img {
+  max-width: 100%;
+}
+
+/* content-area  styling */
+
+#content-area {
+  background: var(--white-color);
+}
