@@ -109,9 +109,21 @@
   margin: 0px 1rem;
 }
 .details > *,
-.details a {
+.details a,
+.details p {
   color: var(--white-color);
+  line-height: 2rem;
+}
+.for-you a,
+.recurce a {
+  display: block;
 }
 .details img {
-  width: 50%;
+  width: 5rem;
+}
+.about-hk-js-book {
+  flex-basis: 30%;
+}
+.copyright {
+  /* text-align: center; */
 }
