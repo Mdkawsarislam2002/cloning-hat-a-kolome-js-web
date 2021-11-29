@@ -9,7 +9,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  color: var(--second-color);
+  color: #323330;
 }
 .navbar {
   background-color: var(--main-color);
@@ -98,6 +98,20 @@
 .js-contant ul li a {
   text-decoration: none;
 }
-.card {
-  flex: 2 1 20em;
+.last-area {
+  background: var(--second-color);
+  color: var(--white-color);
+  height: 100%;
+  padding: 5rem;
+  display: flex;
+}
+.details {
+  margin: 0px 1rem;
+}
+.details > *,
+.details a {
+  color: var(--white-color);
+}
+.details img {
+  width: 50%;
 }
