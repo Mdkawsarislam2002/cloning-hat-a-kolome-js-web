@@ -1,4 +1,4 @@
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
   .logo h1 {
     font-size: 0.5rem;
   }
@@ -34,5 +34,42 @@
   }
   .content {
     padding: 1em 2em;
+  }
+  .js-contant ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1, 5rem);
+    grid-auto-rows: 5rem;
+    grid-gap: 2rem 3rem;
+  }
+  .last-area {
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .last-area a {
+    display: block;
+  }
+  .details #writter > a {
+    display: inline-block;
+  }
+}
+/* for tab  */
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .js-contant ul {
+    /* font-size: 0.8rem; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 7rem);
+    grid-auto-rows: 6rem;
+    grid-gap: 2rem 3rem;
+  }
+  .copyright {
+    margin: 0px auto;
+  }
+  .copyright {
+    display: flex;
+    align-items: center;
   }
 }
