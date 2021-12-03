@@ -35,6 +35,9 @@
   .content {
     padding: 1em 2em;
   }
+  .js-contant ul li h3 {
+    overflow: hidden;
+  }
   .js-contant ul {
     display: grid;
     grid-template-columns: 1fr;
