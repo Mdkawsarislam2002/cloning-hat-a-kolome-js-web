@@ -58,6 +58,10 @@
   .details #writter > a {
     display: inline-block;
   }
+  #ownerGithub-issue,
+  #ownerGithub {
+    display: inline-block;
+  }
   .book img {
     max-width: 50%;
     animation: book-animation 3s infinite alternate;
