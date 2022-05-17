@@ -108,7 +108,7 @@
   display: inline-block;
   background: var(--main-color);
   padding: 1rem 2rem;
-  border: 2px solid var(--second-color);
+  border: 3px solid var(--second-color);
 }
 .js-contant ul li a {
   text-decoration: none;
